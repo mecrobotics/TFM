@@ -10,7 +10,7 @@ class Knowledgebase:
 
     def __init__(self,os,Pinecone, time, OpenAIEmbeddings):
         # initialize connection to pinecone (get API key at app.pinecone.io)
-        self.api_key = os.getenv("PINECONE_API_KEY") or "cb8c8d09-d22c-41c8-9758-9a952d0bdb1b"
+        self.api_key = os.getenv("PINECONE_API_KEY") or "YOUR-API-KEY"
         # configure client
         self.pc = Pinecone(api_key=self.api_key)
         self.index_name = 'banking-rag'
