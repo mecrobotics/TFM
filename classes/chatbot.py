@@ -5,7 +5,7 @@ class Chatbot:
 
     def __init__(self, os, ChatOpenAI, ConversationBufferWindowMemory):
     
-        os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY") or "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"
+        os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY") or "YOUR-API-KEY"
         
         self.llm = ChatOpenAI(
             openai_api_key = os.environ["OPENAI_API_KEY"],
