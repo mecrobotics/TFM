@@ -1,5 +1,5 @@
 # TFM
-# TFM - convocatoria Abril 2024
+# Convocatoria Abril 2024
 
 Instalación en Windows:
 -----------------------
