@@ -1,7 +1,8 @@
 # TFM
-TFM - convocatoria Abril 2024
+# TFM - convocatoria Abril 2024
 
 Instalación en Windows:
+-----------------------
 
 cd <path>
 pip install virtualenv 
